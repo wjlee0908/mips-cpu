@@ -1,0 +1,20 @@
+lw s0 0($zero)  
+lw s1 4($zero) 
+add s2 s0 s1  
+sub s3 s0 s1 
+and s4 s2 s3  
+slt s6 s5 s4 
+beq s5 s1 1 
+j 13
+lw s7 8($zero)
+sw s5 16(s7)
+lw s0 16(s7)
+j 3
+nor s7 s0 $zero
+lw t0 40($zero)
+lw t1 44($zero)
+add t2 t0 t1
+sub t3 t0 t1
+and t4 t0 t1
+xor t5 t0 t1
+slt t6 t2 t3
