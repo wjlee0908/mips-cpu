@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dE:/repo/mips-cpu/MIPS_verilogCode_TermProject
 vALU
-Z1 !s110 1574049432
+Z1 !s110 1574652205
 !i10b 1
 !s100 ojCVZNWcWEnzDPAcl>a672
 I40flIgNA@@oR2LJX]S_5E3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1511938624
+w1574510536
 8E:/repo/mips-cpu/MIPS_verilogCode_TermProject/ALU.v
 FE:/repo/mips-cpu/MIPS_verilogCode_TermProject/ALU.v
 L0 1
@@ -23,7 +23,7 @@ Z3 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z4 !s108 1574049432.000000
+Z4 !s108 1574652205.000000
 !s107 E:/repo/mips-cpu/MIPS_verilogCode_TermProject/ALU.v|
 !s90 -reportprogress|300|-work|mips|-stats=none|E:/repo/mips-cpu/MIPS_verilogCode_TermProject/ALU.v|
 !s101 -O0
@@ -33,11 +33,11 @@ n@a@l@u
 vControl
 R1
 !i10b 1
-!s100 T0H25Tf8B9G=:ocJd8W0F2
-I[6KnL2N2hN_CnPEgX:7GU3
+!s100 l20lGn7=LWlT?;C_LLenI2
+I;9d8A>JLC^9iOVPQ`9NRG0
 R2
 R0
-w1511938522
+w1574603171
 8E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Control.v
 FE:/repo/mips-cpu/MIPS_verilogCode_TermProject/Control.v
 L0 1
@@ -55,11 +55,11 @@ n@control
 vData_Mem
 R1
 !i10b 1
-!s100 :QU=<W17n7l5zVMKdmYYc2
-IZEO7067LP@Ac1J3_854B92
+!s100 C=Dn8lCOQ9i<7>4>HD5Ah3
+IlcFCjQ99Ei@JJVgg7WF4G0
 R2
 R0
-w1511938328
+w1574598265
 8E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Data_Mem.v
 FE:/repo/mips-cpu/MIPS_verilogCode_TermProject/Data_Mem.v
 L0 1
@@ -75,13 +75,13 @@ R4
 R5
 n@data_@mem
 vInstruction_Mem
-R1
+Z6 !s110 1574652206
 !i10b 1
-!s100 C?>c^aLzS?9ldXA7DVeMU3
-I34j^mn7eI^hmO;I>jeRhH0
+!s100 d?RKR@=09ei>bR7h;E`n01
+IO=Y6BadH7DILgR3Q?H?FA3
 R2
 R0
-w1511781058
+w1574598075
 8E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Instruction_Mem.v
 FE:/repo/mips-cpu/MIPS_verilogCode_TermProject/Instruction_Mem.v
 L0 1
@@ -89,7 +89,7 @@ R3
 r1
 !s85 0
 31
-R4
+Z7 !s108 1574652206.000000
 !s107 E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Instruction_Mem.v|
 !s90 -reportprogress|300|-work|mips|-stats=none|E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Instruction_Mem.v|
 !s101 -O0
@@ -97,7 +97,7 @@ R4
 R5
 n@instruction_@mem
 vMIPS
-R1
+R6
 !i10b 1
 !s100 cR2VNmi58>O[:A;Q6c]fX1
 I^VRXDX:K4]^mPMfC3aDR;0
@@ -111,7 +111,7 @@ R3
 r1
 !s85 0
 31
-R4
+R7
 !s107 E:/repo/mips-cpu/MIPS_verilogCode_TermProject/MIPS.v|
 !s90 -reportprogress|300|-work|mips|-stats=none|E:/repo/mips-cpu/MIPS_verilogCode_TermProject/MIPS.v|
 !s101 -O0
@@ -119,7 +119,7 @@ R4
 R5
 n@m@i@p@s
 vmips_testbench
-!s110 1574049433
+R6
 !i10b 1
 !s100 =4ZME;4]_>d@8XTgWk3m>0
 IH?0GzWZ_m]hWV`HElXgVh2
@@ -133,7 +133,7 @@ R3
 r1
 !s85 0
 31
-!s108 1574049433.000000
+R7
 !s107 E:/repo/mips-cpu/MIPS_verilogCode_TermProject/mips_testbench.v|
 !s90 -reportprogress|300|-work|mips|-stats=none|E:/repo/mips-cpu/MIPS_verilogCode_TermProject/mips_testbench.v|
 !s101 -O0
@@ -142,11 +142,11 @@ R5
 vRegister
 R1
 !i10b 1
-!s100 S3YFURKWCObgzkdd0k]P>3
-IfUDiW6@_0XL=Am8kn>@iZ3
+!s100 =LA]OA=2G?^4HL[SR2`M=0
+ITX=31lfG0i:SeBI=IZO]_3
 R2
 R0
-w1511938324
+w1574516898
 8E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Register.v
 FE:/repo/mips-cpu/MIPS_verilogCode_TermProject/Register.v
 L0 2

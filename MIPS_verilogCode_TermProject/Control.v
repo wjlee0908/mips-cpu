@@ -34,7 +34,8 @@ begin
 		end
 		6'b000010 : begin// Jump
 				    RegWrite = 0;             MemWrite = 0; MemRead = 0;	       JToPC = 1; Branch = 0;
-			RegDst = 0; ALUSrc = 0; MemToReg = 0; ALUOp = 4'b0000; // To avoid creating a latch
+					ALUOp = 4'b1111;
+			RegDst = 0; ALUSrc = 0; MemToReg = 0;  // To avoid creating a latch
 		end
 		default : begin // To avoid creating a latch
 			RegDst = 0; RegWrite = 0; ALUSrc = 0; MemWrite = 0; MemRead = 0; MemToReg = 0; JToPC = 0; Branch = 0;

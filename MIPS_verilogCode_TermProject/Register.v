@@ -30,8 +30,8 @@ always @(*)
 begin
 	if (read1 == 5'd0) // $zero
 		data1 = 32'd0;
-	else if ((read1 == wrreg) && RegWrite)
-		data1 = wrdata;
+//	else if ((read1 == wrreg) && RegWrite)
+//		data1 = wrdata;
 	else
 		data1 = mem[read1][31:0];
 end
@@ -40,11 +40,12 @@ always @(*)
 begin
 	if (read2 == 5'd0) // $zero
 		data2 = 32'd0;
-	else if ((read2 == wrreg) && RegWrite)
-		data2 = wrdata;
+//	else if ((read2 == wrreg) && RegWrite)
+//		data2 = wrdata;
 	else
 		data2 = mem[read2][31:0];
 end
+
 
 always @(posedge CLK) 
 begin

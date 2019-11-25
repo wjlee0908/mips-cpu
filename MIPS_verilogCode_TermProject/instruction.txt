@@ -1,20 +1,32 @@
-lw s0 0($zero)  
-lw s1 4($zero) 
-add s2 s0 s1  
-sub s3 s0 s1 
-and s4 s2 s3  
-slt s6 s5 s4 
-beq s5 s1 1 
-j 13
-lw s7 8($zero)
-sw s5 16(s7)
-lw s0 16(s7)
-j 3
-nor s7 s0 $zero
-lw t0 40($zero)
-lw t1 44($zero)
-add t2 t0 t1
-sub t3 t0 t1
-and t4 t0 t1
-xor t5 t0 t1
-slt t6 t2 t3
+# memory initialize
+ADDI $t0, $zero, 1
+SW $t0, 0($zero)
+ADDI $t0, zero, 1437226410
+SW $t0, 40($zero)
+ADDI $t0, $zero, 2005432200
+SW $t0, 44($zero)
+ADDI $t0, $zero, 0
+
+# instruction
+
+LW $s0, 0($zero)  
+LW $s1, 4($zero) 
+ADD $s2, $s0, $s1  
+SUB $s3, $s0, $s1 
+AND $s4, $s2, $s3 
+XOR $s5, $s2, $s3 
+SLT $s6, $s5, $s4 
+BEQ $s5, $s1, 1 
+J 13
+LW $s7, 8($zero)
+SW $s5, 16($s7)
+LW $s0, 16($s7)
+J 3
+NOR $s7, $s0, $zero
+LW $t0, 40($zero)
+LW $t1, 44($zero)
+ADD $t2, $t0, $t1
+SUB $t3, $t0, $t1
+AND $t4, $t0, $t1
+XOR $t5, $t0, $t1
+SLT $t6, $t2, $t3

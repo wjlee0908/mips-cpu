@@ -24,6 +24,7 @@ end
 integer i;
 initial
 begin
+	//mem[0] = 32'd0; // for s0 = 0
 	mem[0] = 32'd1; // for s0 = 1
 	mem[1] = 32'd0; // for s1 = 0
 	mem[2] = 32'd0; // for s7 = 0
