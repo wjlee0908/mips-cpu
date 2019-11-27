@@ -17,7 +17,8 @@ assign mult_ab = a * b;
 
 // overflow detection
 assign oflow_add = (a[31] == b[31] && add_ab[31] != a[31]) ? 1 : 0; // overflow
-assign oflow_sub = (a[31] == b[31] && sub_ab[31] != a[31]) ? 1 : 0; // overflow, If the latter is greater in absolute value, oflow_sub is 1.
+// assign oflow_sub = (a[31] == b[31] && sub_ab[31] != a[31]) ? 1 : 0; // overflow, If the latter is greater in absolute value, oflow_sub is 1.
+assign oflow_sub = (a[31] != b[31] && sub_ab[31] == b[31]) ? 1 : 0; // overflow, If the latter is greater in absolute value, oflow_sub is 1.
 assign oflow = (ALUOp == 4'b0010) ? oflow_add : oflow_sub;
 assign slt = oflow_sub ? ~(a[31]) : a[31];
 

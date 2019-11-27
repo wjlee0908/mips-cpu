@@ -12,13 +12,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	Instruction_Mem
 
-} {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/mips_testbench.v {1 {vlog -work mips -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/mips_testbench.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module mips_testbench
-
-Top level modules:
-	mips_testbench
-
 } {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Register.v {1 {vlog -work mips -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Register.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Register
@@ -26,12 +19,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	Register
 
-} {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/MIPS.v {1 {vlog -work mips -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/MIPS.v
+} {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Control.v {1 {vlog -work mips -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Control.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module MIPS
+-- Compiling module Control
 
 Top level modules:
-	MIPS
+	Control
 
 } {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/ALU.v {1 {vlog -work mips -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/ALU.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015

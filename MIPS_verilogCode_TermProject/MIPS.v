@@ -5,6 +5,7 @@ module MIPS(
 // IM
 wire [31:0] Next_PC, Instr, Branch_addr;
 reg [31:0] PC;
+reg is_init; // 
 
 // Control
 wire RegDst, RegWrite; // control signal
