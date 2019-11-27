@@ -39,8 +39,8 @@ begin
 	
 end
 
+//assign data = mem[addr][31:0];
 // if address is negative number, do nothing
-assign data = mem[addr][31:0];
-//assign data = mem[addr][31:0] : 32'b111111_00000_00000_00000_00000_000000;
+assign data = (addr[6] == 0) ? mem[addr][31:0] : 32'b111111_00000_00000_00000_00000_000000;
 
 endmodule
