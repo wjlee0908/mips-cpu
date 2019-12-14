@@ -12,6 +12,41 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	Data_Mem
 
+} {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/IFtoID_Buffer.v {1 {vlog -work work -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/IFtoID_Buffer.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IFtoID_Buffer
+
+Top level modules:
+	IFtoID_Buffer
+
+} {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Instruction_Mem.v {1 {vlog -work mips -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Instruction_Mem.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Instruction_Mem
+
+Top level modules:
+	Instruction_Mem
+
+} {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/MEMtoWB_Buffer.v {1 {vlog -work work -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/MEMtoWB_Buffer.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MEMtoWB_Buffer
+
+Top level modules:
+	MEMtoWB_Buffer
+
+} {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/EXtoMEM_Buffer.v {1 {vlog -work work -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/EXtoMEM_Buffer.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module EXtoMEM_Buffer
+
+Top level modules:
+	EXtoMEM_Buffer
+
+} {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/MIPS.v {1 {vlog -work mips -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/MIPS.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
 } {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Register.v {1 {vlog -work mips -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/Register.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Register
@@ -32,5 +67,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	ALU
+
+} {} {}} E:/repo/mips-cpu/MIPS_verilogCode_TermProject/IDtoEX_Buffer.v {1 {vlog -work work -stats=none E:/repo/mips-cpu/MIPS_verilogCode_TermProject/IDtoEX_Buffer.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IDtoEX_Buffer
+
+Top level modules:
+	IDtoEX_Buffer
 
 } {} {}}
