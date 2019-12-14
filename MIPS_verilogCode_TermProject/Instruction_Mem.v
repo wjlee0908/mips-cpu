@@ -17,6 +17,7 @@ begin
 	// $readmemh(IM_DATA, mem, 0, NMEM-1);
 	mem[0] = 32'b100011_00000_10000_00000_00000_000000; // lw s0 0($zero) , s0 = 1 
 	mem[1] = 32'b100011_00000_10001_00000_00000_000100; // lw s1 4($zero) , s1 = 0
+	// RAW, 1stall + forwarding 필요
 	mem[2] = 32'b000000_10000_10001_10010_00000_100000; // add s2 s0 s1 , s2 = 1 
 	mem[3] = 32'b000000_10000_10001_10011_00000_100010; // sub s3 s0 s1 , s3 = 1
 	mem[4] = 32'b000000_10010_10011_10100_00000_100100; // and s4 s2 s3 , s4 = 1
@@ -41,6 +42,6 @@ end
 
 //assign data = mem[addr][31:0];
 // if address is negative number, do nothing
-assign data = (addr[6] == 0) ? mem[addr][31:0] : 32'b111111_00000_00000_00000_00000_000000;
+assign data = (addr[6] == 0) ? mem[addr][31:0] : 32'b000000_00000_00000_00000_00000_100000; // add $zero, $zero, $zero : do nothing
 
 endmodule
