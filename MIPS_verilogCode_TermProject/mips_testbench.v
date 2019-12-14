@@ -13,6 +13,6 @@ end
 
 always
 begin
-	#10 CLK = ~CLK;
+	#50 CLK = ~CLK;
 end
 endmodule
